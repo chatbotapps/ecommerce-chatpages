@@ -1,0 +1,12 @@
+<div class= "fixed-top">
+<h3 style="text-align:center; background-color: #107dac;font-family:sans-serif">Products</h3>
+<nav id="navbar-example2" class="navbar navbar-light bg-light" style= "margin-top: -10px;">
+      <div class="nav-item" *ngFor = "let ct of categories">
+        <a class="nav-link" >{{ct.category}}</a>
+      </div>
+  </nav>
+</div>
+<app-dairy-products class=""></app-dairy-products>
+<h6> Break</h6>
+<app-consumer-products></app-consumer-products>
+   <!-- <app-products data-spy="scroll" data-target="#navbar-example2" data-offset="0"></app-products>-->
