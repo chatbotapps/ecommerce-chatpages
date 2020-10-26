@@ -7,7 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
 	"postinstall": "ng build --output-path angularapp  --aot --prod"
   },
   "private": true,
@@ -30,7 +30,7 @@
     "rxjs": "~6.4.0",
     "rxjs-compat": "^6.6.3",
     "tslib": "^1.9.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
 	"@angular/cli": "^10.2.0",
     "@angular/compiler-cli": "^8.0.3",
 	"typescript": "~3.4.3"
