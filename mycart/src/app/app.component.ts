@@ -15,7 +15,6 @@ export class AppComponent implements OnInit {
     this.http.get<any>('https://script.google.com/macros/s/AKfycbzHLstbwnJmw_N2nkYUekMCP4KFE62KeeSjIr6hj7dgYXC0oWw/exec?actionType=getItems').subscribe(
       data => {
         this.products = data;
-        console.log(this.products)
       }
     )
 
